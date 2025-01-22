@@ -48,7 +48,7 @@ def create_visuals(model, param):
  
 path = str('/mnt/artifacts/credit_card_default.csv')
 df = pd.read_csv(path)
-print('Read in {} rows of data'.format(df.shape[0]))s
+print('Read in {} rows of data'.format(df.shape[0]))
   
 #Get data set up for model training and evaluation
  
