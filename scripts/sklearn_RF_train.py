@@ -46,9 +46,9 @@ def create_visuals(model, param):
 
 # read in data then split into train and test
  
-path = str('/mnt/data/mlops-best-practices/credit_card_default.csv')
+path = str('/mnt/artifacts/credit_card_default.csv')
 df = pd.read_csv(path)
-print('Read in {} rows of data'.format(df.shape[0]))
+print('Read in {} rows of data'.format(df.shape[0]))s
   
 #Get data set up for model training and evaluation
  
